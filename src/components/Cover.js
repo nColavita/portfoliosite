@@ -3,7 +3,7 @@ import { Tween } from 'react-gsap';
 
 export default function Cover() {
     return (
-        <Tween to={{ autoAlpha: '0' }} duration={5} ease="back.out(1.7)">
+        <Tween to={{ autoAlpha: '0' }} duration={3} ease="back.out(1.7)">
             <div style={cover}></div>
         </Tween>
     );

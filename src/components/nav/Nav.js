@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Nav.css';
 import logo from '../../assets/img/logo2.svg';
@@ -7,15 +8,15 @@ const Nav = () => {
     return (
         <header>
             <nav>
-                <a href="#">
+                <Link to="/">
                     <img src={logo} alt="logo" />
-                </a>
+                </Link>
                 <ul>
                     <li>
-                        <a href="./portfolio.html">Work</a>
+                        <Link to="/work">Work</Link>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <Link to="/about">About</Link>
                     </li>
                 </ul>
             </nav>

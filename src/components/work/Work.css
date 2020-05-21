@@ -1,0 +1,32 @@
+.wrapper {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.grid-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    width: 350px;
+    height: 350px;
+    transition: all 0.75s ease-in-out;
+}
+
+.grid-item img {
+    width: 75%;
+    height: auto;
+}
+
+.grid-item:hover {
+    transform: scale(0.95);
+}
