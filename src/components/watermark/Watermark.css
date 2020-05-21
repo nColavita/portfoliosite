@@ -1,0 +1,13 @@
+#watermark {
+    position: absolute;
+    width: 100%;
+    opacity: 0.045;
+    color: black;
+    font-size: 55em;
+    overflow: hidden;
+}
+
+#watermark #watermark-copy {
+    margin: 0;
+    padding: 0;
+}

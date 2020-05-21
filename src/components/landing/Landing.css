@@ -1,0 +1,60 @@
+#landing {
+    overflow: hidden;
+}
+
+#landing-copy-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+#landing-copy-container h1,
+h2 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+#landing-copy-container h1 {
+    position: relative;
+    font-size: 11rem;
+    top: 80px;
+    left: 0px;
+}
+
+#landing-copy-container h2 {
+    position: relative;
+    font-size: 8rem;
+    font-weight: 300;
+}
+#developer {
+    color: #7b7b7b;
+    top: 50px;
+    left: 340px;
+}
+#designer {
+    color: #141414;
+    top: 50px;
+    left: 720px;
+}
+#creator {
+    color: #848484;
+    top: 40px;
+    left: 240px;
+}
+
+/* Media Queries */
+
+/* XS Screens */
+@media screen and (max-width: 500px) {
+}
+
+/* Md Screens */
+@media screen and (max-width: 899px) {
+    #watermark h1 {
+        display: none;
+    }
+}
+
+/* Lg Screens */
