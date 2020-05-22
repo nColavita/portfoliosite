@@ -14,7 +14,7 @@ function App() {
     return (
         <Router>
             <div className="App">
-                {/* <Cover /> */}
+                <Cover />
                 <div id="container">
                     <Nav />
                     <Switch>

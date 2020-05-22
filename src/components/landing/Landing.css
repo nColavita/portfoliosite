@@ -31,20 +31,22 @@ h2 {
 #developer {
     color: #7b7b7b;
     top: 50px;
-    left: 340px;
+    left: 25%;
 }
 #designer {
     color: #141414;
     top: 50px;
-    left: 720px;
+    left: 52%;
 }
 #creator {
     color: #848484;
     top: 40px;
-    left: 240px;
+    left: 15%;
 }
 
 /* Media Queries */
+@media screen and (max-width: 1400px) {
+}
 
 /* XS Screens */
 @media screen and (max-width: 500px) {

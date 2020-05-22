@@ -9,7 +9,6 @@ const AnimChar = () => {
                     <h1
                         style={{
                             display: 'inline-block',
-                            fontSize: '11rem',
                         }}
                     />
                 }

@@ -1,0 +1,54 @@
+.about-container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.headline {
+    width: 60%;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+h4 {
+    display: inline-block;
+    font-size: 2em;
+    color: #de8c2f;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1.25em;
+    line-height: 1.75em;
+}
+
+.skills {
+    text-align: left;
+}
+
+.skill h4 {
+    margin: 10px 10px;
+}
+
+.html5 {
+    width: 100px;
+}
+.css3 {
+    width: 100px;
+}
+.js {
+    width: 100px;
+}
+.react {
+    width: 75px;
+}
+.dataviz {
+    width: 50px;
+}
