@@ -1,5 +1,9 @@
 import React from 'react';
-
+// Components
+import WorkItem from './WorkItem';
+// Style
+import './Work.css';
+// Assets
 import arconic from '../../assets/img/arconic.png';
 import devry from '../../assets/img/devry.png';
 import reebok from '../../assets/img/reebok.png';
@@ -7,30 +11,52 @@ import restaurant from '../../assets/img/restaurant-landing.jpg';
 import sprout from '../../assets/img/sprout.png';
 import pantrymate from '../../assets/vid/pantrymate.mp4';
 
-import './Work.css';
-
 const Work = () => {
     return (
         <div className="wrapper">
             <div className="grid-container">
-                <div className="grid-item">
-                    <video src={pantrymate} autoplay alt="pantrymate" />
-                </div>
-                <div className="grid-item">
-                    <img src={arconic} alt="arconic" />
-                </div>
-                <div className="grid-item">
-                    <img src={devry} alt="arconic" />
-                </div>
-                <div className="grid-item">
-                    <img src={reebok} alt="arconic" />
-                </div>
-                <div className="grid-item">
-                    <img src={restaurant} alt="arconic" />
-                </div>
-                <div className="grid-item">
-                    <img src={sprout} alt="arconic" />
-                </div>
+                <WorkItem
+                    type="vid"
+                    size="lg"
+                    alt="arconic"
+                    src={pantrymate}
+                    link="https://ncolavita.com/projects/pantrymate"
+                />
+                <WorkItem
+                    type="img"
+                    size="lg"
+                    alt="restaurant"
+                    src={restaurant}
+                    link="https://ncolavita.com/projects/restaurant_landing_page"
+                />
+                <WorkItem
+                    type="img"
+                    size="sm"
+                    alt="arconic"
+                    src={arconic}
+                    link="https://ncolavita.com/projects/ARCONIC"
+                />
+                <WorkItem
+                    type="img"
+                    size="md"
+                    alt="devry"
+                    src={devry}
+                    link="https://ncolavita.com/projects/DEVRY"
+                />
+                <WorkItem
+                    type="img"
+                    size="md"
+                    alt="reebok"
+                    src={reebok}
+                    link="https://ncolavita.com/projects/REEBOK"
+                />
+                <WorkItem
+                    type="img"
+                    size="md"
+                    alt="sprout"
+                    src={sprout}
+                    link="https://ncolavita.com/projects/SPROUT"
+                />
             </div>
         </div>
     );

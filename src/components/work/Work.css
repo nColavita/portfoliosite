@@ -18,15 +18,45 @@
     justify-content: center;
     background-color: #ffff;
     width: 350px;
-    height: 350px;
-    transition: all 0.75s ease-in-out;
-}
-
-.grid-item img {
-    width: 75%;
-    height: auto;
+    height: 200px;
+    transition: transform 0.45s ease-in-out;
+    overflow: hidden;
 }
 
 .grid-item:hover {
-    transform: scale(0.95);
+    transform: scale(0.98);
+}
+
+img {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.sm {
+    width: 40% !important;
+}
+.md {
+    width: 75%;
+}
+.lg {
+    width: 100%;
+}
+
+video {
+    width: 350px;
+    height: auto;
+}
+
+@media screen and (max-width: 899px) {
+    .wrapper {
+        height: auto;
+        margin-top: 75px;
+    }
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-item {
+        width: 100%;
+    }
 }

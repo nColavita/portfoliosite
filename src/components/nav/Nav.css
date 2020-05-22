@@ -5,6 +5,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav img {
@@ -22,6 +23,7 @@ nav li a {
     color: #8e8e8e;
     font-size: 1.15em;
     font-weight: 500;
+    transition: color 0.45s ease-in-out;
 }
 
 nav li a:hover {
