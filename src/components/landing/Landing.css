@@ -44,19 +44,66 @@ h2 {
     left: 15%;
 }
 
+.name-mobile {
+    display: none;
+}
+
 /* Media Queries */
-@media screen and (max-width: 1400px) {
-}
 
-/* XS Screens */
-@media screen and (max-width: 500px) {
-}
-
-/* Md Screens */
-@media screen and (max-width: 899px) {
-    #watermark h1 {
-        display: none;
+/* XL Screens */
+@media screen and (max-width: 1440px) {
+    #landing-copy-container h2 {
+        font-size: 6em;
     }
 }
 
 /* Lg Screens */
+@media screen and (max-width: 1024px) {
+    #landing-copy-container h1 {
+        font-size: 8em;
+    }
+    #landing-copy-container h2 {
+        font-size: 5em;
+    }
+    #developer {
+        top: 100px;
+    }
+    #designer {
+        top: 100px;
+    }
+    #creator {
+        top: 90px;
+    }
+}
+
+/* Md Screens */
+@media screen and (max-width: 899px) {
+    .name-mobile {
+        display: unset;
+        width: 100%;
+        text-align: left;
+    }
+    .name-mobile h1 {
+        font-size: 5em !important;
+    }
+    .name-desktop {
+        display: none;
+    }
+
+    #developer {
+        left: 0%;
+    }
+    #designer {
+        left: 12%;
+    }
+    #creator {
+        left: 5%;
+    }
+}
+
+/* Sm Screens */
+@media screen and (max-width: 500px) {
+    #watermark {
+        display: none;
+    }
+}

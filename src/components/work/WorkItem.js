@@ -4,7 +4,7 @@ const WorkItem = ({ type, src, size, alt, link }) => {
     const contentType = type;
     if (contentType === 'vid') {
         return (
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noopener noreferrer">
                 <div className="grid-item">
                     {' '}
                     <video autoPlay loop>
@@ -16,7 +16,7 @@ const WorkItem = ({ type, src, size, alt, link }) => {
         );
     }
     return (
-        <a href={link} target="_blank">
+        <a href={link} target="_blank" rel="noopener noreferrer">
             <div className="grid-item">
                 <img className={size} src={src} alt={alt} />
             </div>

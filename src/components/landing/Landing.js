@@ -8,7 +8,13 @@ const Landing = () => {
     return (
         <section id="landing">
             <div id="landing-copy-container">
-                <AnimChar />
+                <div className="name-desktop">
+                    <AnimChar />
+                </div>
+                <div className="name-mobile">
+                    <h1>nick</h1>
+                    <h1>colavita</h1>
+                </div>
                 <Timeline
                     target={
                         <Fragment>

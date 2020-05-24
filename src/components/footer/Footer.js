@@ -11,17 +11,22 @@ const Footer = () => {
                     <a
                         href="https://www.linkedin.com/in/nickcolavita"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         LinkedIn
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.github.com/nColavita" target="_blank">
+                    <a
+                        href="https://www.github.com/nColavita"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Github
                     </a>
                 </li>
                 <li>
-                    <a href={resume} target="_blank">
+                    <a href={resume} target="_blank" rel="noopener noreferrer">
                         Resume
                     </a>
                 </li>

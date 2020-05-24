@@ -7,6 +7,7 @@ import Landing from './components/landing/Landing';
 import Work from './components/work/Work';
 import About from './components/about/About';
 import Cover from './components/Cover';
+import Watermark from './components/watermark/Watermark';
 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
         <Router>
             <div className="App">
                 <Cover />
+                <Watermark />
                 <div id="container">
                     <Nav />
                     <Switch>
