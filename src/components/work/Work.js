@@ -4,7 +4,7 @@ import WorkItem from './WorkItem';
 // Style
 import './Work.css';
 // Assets
-import arconic from '../../assets/img/arconic.png';
+import preyemer from '../../assets/img/preyemer.jpg';
 import devry from '../../assets/img/devry.png';
 import reebok from '../../assets/img/reebok.png';
 import restaurant from '../../assets/img/restaurant-landing.jpg';
@@ -18,9 +18,16 @@ const Work = () => {
                 <WorkItem
                     type="vid"
                     size="lg"
-                    alt="arconic"
+                    alt="pantrymate"
                     src={pantrymate}
                     link="https://ncolavita.com/projects/pantrymate"
+                />
+                <WorkItem
+                    type="img"
+                    size="lg"
+                    alt="preyemer"
+                    src={preyemer}
+                    link="https://ncolavita.com/projects/preyemer"
                 />
                 <WorkItem
                     type="img"
@@ -28,13 +35,6 @@ const Work = () => {
                     alt="restaurant"
                     src={restaurant}
                     link="https://ncolavita.com/projects/restaurant_landing_page"
-                />
-                <WorkItem
-                    type="img"
-                    size="sm"
-                    alt="arconic"
-                    src={arconic}
-                    link="https://ncolavita.com/projects/ARCONIC"
                 />
                 <WorkItem
                     type="img"

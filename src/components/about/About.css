@@ -71,7 +71,7 @@ h4 {
 p {
     margin-top: 10px;
     font-size: 1em;
-    line-height: 1.75em;
+    line-height: 1.5em;
 }
 
 .skills {
@@ -96,4 +96,12 @@ p {
 }
 .dataviz {
     width: 50px;
+}
+
+@media screen and (max-width: 899px) {
+    .about-container {
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
 }

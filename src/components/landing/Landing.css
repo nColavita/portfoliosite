@@ -4,6 +4,9 @@
 
 #landing-copy-container {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 80vh;
 }
@@ -19,7 +22,6 @@ h2 {
 #landing-copy-container h1 {
     position: relative;
     font-size: 11rem;
-    top: 80px;
     left: 0px;
 }
 
@@ -30,18 +32,16 @@ h2 {
 }
 #developer {
     color: #7b7b7b;
-    top: 50px;
     left: 25%;
 }
 #designer {
     color: #141414;
-    top: 50px;
     left: 52%;
 }
 #creator {
     color: #848484;
-    top: 40px;
     left: 15%;
+    margin: -20px;
 }
 
 .name-mobile {
@@ -68,12 +68,6 @@ h2 {
     #developer {
         top: 100px;
     }
-    #designer {
-        top: 100px;
-    }
-    #creator {
-        top: 90px;
-    }
 }
 
 /* Md Screens */
@@ -84,25 +78,37 @@ h2 {
         text-align: left;
     }
     .name-mobile h1 {
-        font-size: 5em !important;
+        font-size: 7em !important;
     }
     .name-desktop {
         display: none;
     }
 
     #developer {
+        top: 0%;
         left: 0%;
     }
     #designer {
+        top: 0%;
         left: 12%;
     }
     #creator {
+        top: 0%;
         left: 5%;
     }
 }
 
 /* Sm Screens */
 @media screen and (max-width: 500px) {
+    #developer {
+        top: 0%;
+    }
+    #designer {
+        top: 0%;
+    }
+    #creator {
+        top: 0%;
+    }
     #watermark {
         display: none;
     }
